@@ -7,7 +7,7 @@
 
 FIND_PATH(GFLAGS_INCLUDE_DIRS gflags/gflags.h)
 
-FIND_LIBRARY(GFLAGS_LIBRARIES NAMES gflags gflags_nothreads.a)
+FIND_LIBRARY(GFLAGS_LIBRARIES NAMES gflags gflags_nothreads)
 
 # handle the QUIETLY and REQUIRED arguments and set GFLAGS_FOUND to TRUE if
 # all listed variables are TRUE
